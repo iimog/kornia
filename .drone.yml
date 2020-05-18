@@ -1,0 +1,10 @@
+kind: pipeline
+type: docker
+name: default
+
+steps:
+- name: test
+  image: python:3.6
+  commands:
+  - echo "hello world"
+  - echo "hello world 2" 
